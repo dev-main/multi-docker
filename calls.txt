@@ -5,4 +5,8 @@ docker image prune
 docker image prune
 docker-compose up --build
 docker-compose down  && docker-compose up --build
-
+git remote add origin git@github.com:dev-main/docker-react.git:dev-main
+git add .
+git commit -m "commnads"
+git push -u origin main
+git remote rm origin
